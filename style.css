@@ -9,6 +9,8 @@
 
 /* Header 1 */
 
+
+
 .tax{
     display: flex;
     justify-content: center;
@@ -16,6 +18,11 @@
     background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
     height: 50px;
     z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
     
     
 
@@ -55,21 +62,21 @@
 
 /* Header 2 */
 
+.nav{
+  margin: 50px 1px;
+  
+  
+}
 
 .logo{
     
-    font-size: 30px;
-    margin: 40px;
-    display: inline;
+    width: 150px;
+    margin: 0px;
+    display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
    
-}
-
-.logo a{
-    color: white;
-    text-decoration: none;
-       
-    
-
 }
 
 
@@ -78,10 +85,11 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 15px;
     
 }
 
-.navbar  li a{
+.navbar   a{
     color: white;
     text-decoration: none;
     display: flex;
@@ -91,6 +99,23 @@
     font-family: arial;
     
     
+    
+}
+
+.nav-top{
+  float: right;
+  display: flex;
+  position: relative;
+  
+  
+}
+
+.nav-icon{
+
+  position: absolute;
+  margin-left: 550px;
+  
+
 }
 
 /* Section 1 */
@@ -104,6 +129,7 @@
     top: 0;
     bottom: 0;
     z-index: -1;
+  
   }
 
   .first-section{
