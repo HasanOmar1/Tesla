@@ -14,23 +14,26 @@
     background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
     height: 50px;
     font-family: sans-serif;
+    
 
 
 }
 
 .tax h3 {
-    font-size: 20px;
+    font-size: 17px;
     padding-right: 20px;
-    
-    padding-top:10px
+    line-height: 1.8;
+    padding-top:10px;
+    letter-spacing: 1px;
     
 
 }
 
 .tax p {
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 1.6;
     padding-top: 13px;
-    
+    letter-spacing: 1px;
     
 }
 
@@ -39,6 +42,7 @@
     font-size: 15px;
     padding-top: 14px;
     padding-left: 10px;
+    line-height: 1.3;
     
 }
 
@@ -67,13 +71,31 @@
 }
 
 .navbar ul li a{
+    color: white;
     text-decoration: none;
     display: flex;
     padding-right: 30px;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    
+
     
 
     
     
 }
+
+
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
