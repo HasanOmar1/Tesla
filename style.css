@@ -69,7 +69,7 @@
 
 .logo{
     
-    width: 150px;
+    width: 170px;
     margin: 0px;
     display: block;
     float: left;
@@ -117,7 +117,7 @@
 
 }
 
-/* Section 1 */
+/* First Section  */
 
 
 #video {
@@ -134,7 +134,7 @@
   }
 
   .first-section{
-    height: 85vh;
+    height: 86vh;
 
     
   }
@@ -220,6 +220,8 @@
   .info-3 p{
     margin-left: 30px;
   }
+
+  
  
   .btn-container{
 
@@ -228,6 +230,7 @@
     justify-content: center;
     padding: 30px;
     margin-left: 100px;
+    
     
     
   }
@@ -267,13 +270,123 @@
     transition: 0.5s;
    }
 
+   .last-p{
+    font-size: 13px;
+    text-align: center;
+    
+   
+    
+    
+   }
+
+   #last-p{
+    font-family: 'Quicksand' , Arial, Helvetica, sans-serif ;
+    
+   }
+
+   #last-a{
+    font-family: 'Quicksand' , Arial, Helvetica, sans-serif ;
+    
+   }
 
 
   /* Second Section */
 
   .second-section{
-    height: 100vh;
+    height: 30vh;
     background-color: white;
+    
+    
+  }
+
+
+  #tesla-img{
+    width: 1500px;
+    margin-left: 300px;
+    
+  }
+
+  .safety-h2{
+    color: black;
+    font-family:  'quicksand' , Arial, Helvetica, sans-serif;
+    margin-left: 450px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+  }
+
+
+  #safety-p{
+    color: black;
+    font-family: sans-serif , Arial ;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    display: inline;
+    color: grey;
+  }
+
+  #safety-a{
+    color: black;
+    font-family: sans-serif , Arial ;
+    margin-top: 20px;
+    color: grey;
+  }
+
+  .rating{
+    float: left;
+  }
+
+  #rating-h4{
+    color: black;
+    font-family:  'quicksand' , Arial, Helvetica, sans-serif;
+    margin-left: 450px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    
+  }
+
+  #rating-p{
+    color: grey;
+    font-family:  'quicksand' , Arial, Helvetica, sans-serif;
+    margin-left: 450px;
+    width: 550px;
+    font-size: 15px;
+    
+    
   }
 
  
+
+  #top-h4{
+    color: black;
+    font-family:  'quicksand' , Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    
+  }
+
+  #top-p{
+    color: grey;
+    font-family:  'quicksand' , Arial, Helvetica, sans-serif;
+    margin-left: 800px;
+    width: 800px;
+    font-size: 15px;
+    
+    
+  }
+
+
+
+  /* Last Section */
+  
+  .last-section{
+    background-color: white;
+    height: 100vh;
+  }
+
+
+
