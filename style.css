@@ -90,8 +90,7 @@
 
 .navbar   a{
     color: white;
-    text-decoration: none;
-    display: flex;
+    text-decoration: none; 
     padding-right: 30px;
     font-size: 15px;
     font-weight: bold;
@@ -102,7 +101,7 @@
 }
 
 .nav-top{
-  float: right;
+  
   display: flex;
   
   
@@ -128,11 +127,6 @@
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    
-    
-
-   
-    
     
   
   }
